@@ -60,7 +60,6 @@ const preload = {
     type: jsPsychPreload,
     auto_preload: true,
     images: [BACS, letters],
-    max_load_
 };
 timeline.push(preload)
 
