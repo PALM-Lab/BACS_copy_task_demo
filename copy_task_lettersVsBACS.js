@@ -28,7 +28,7 @@ jsPsych.data.addProperties({
 
 // DEFINE EXPERIMENT VARIABLES
 const n_trials = 10; // Number of trials in the experiment, should be even
-const n_items = 4; // Number of items in the copy grid
+const n_items = 6; // Number of items in the copy grid
 const n_conditions = 2 // familiar vs unfamiliar
 var conditions = ["BACS","CourierNew"]
 
