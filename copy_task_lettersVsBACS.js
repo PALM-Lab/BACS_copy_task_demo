@@ -34,13 +34,13 @@ var conditions = ["BACS","CourierNew"]
 
 // EXPERIMENT STIMULI
 // Brussels Artificial Character Set (BACS)
-const BACS = ['bacs/BACS_B.png', 'bacs/BACS_G.png', '/bacs/BACS_J.png', 'bacs/BACS_K.png', 'bacs/BACS_P.png',
+const BACS = ['bacs/BACS_B.png', 'bacs/BACS_G.png', 'bacs/BACS_J.png', 'bacs/BACS_K.png', 'bacs/BACS_P.png',
     'bacs/BACS_R.png', 'bacs/BACS_V.png', 'bacs/BACS_X.png'
 ]
 
 // CourierNew 
 const letters = ['courier/CourierNew_B.png', 'courier/CourierNew_G.png', 'courier/CourierNew_J.png', 'courier/CourierNew_K.png',
-    '/courier/CourierNew_P.png', 'courier/CourierNew_R.png', 'courier/CourierNew_V.png', 'courier/CourierNew_X.png'
+    'courier/CourierNew_P.png', 'courier/CourierNew_R.png', 'courier/CourierNew_V.png', 'courier/CourierNew_X.png'
 ]
 
 // BUILD EXPERIMENT VARIABLES
