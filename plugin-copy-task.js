@@ -429,7 +429,11 @@ var jsPsychCopyingTask = (function (jspsych) {
       // Draw occluder panels
       drawLeftPanel(left_panel_params)  
       drawRightPanel(right_panel_params)
-
+      var event = {
+        event: "trial start",
+        timestamp: Math.round(performance.now()),
+      };
+      trial_events.push(event);
 
       ///////////////////////////////////////////////////////////////////////
       /* SECTION 3: Define functions*/

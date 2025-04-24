@@ -78,7 +78,7 @@ var resize = {
     item_width: 3 + 3 / 8,
     item_height: 2 + 1 / 8,
     prompt: "<p>Click and drag the lower right corner of the box until the box is the same size as a credit card held up to the screen.</p>",
-    pixels_per_unit: 150
+    pixels_per_unit: 125
 };
 
 timeline.push(resize)
@@ -100,7 +100,8 @@ timeline.push(welcome);
 var instructions_1 = {
     type: jsPsychHtmlButtonResponse,
     stimulus: `
-    <img src="instructions/show_model_grid.png">
+    <p>Thank you for consenting to participate in this experiment.</p>
+    <img src="instructions/show_model_grid.png" width=800 height=240>
     <p>On each trial, you will start by seeing a model grid on the left. Your task is to recreate this grid on the right.</p>
     <p>When your mouse cursor hovers over the model grid (on the left), the model grid will be visible.</p>
     <p>However, when your mouse cursor moves over to the right, the model grid will no longer be visible.</p>
@@ -114,7 +115,7 @@ timeline.push(instructions_1);
 var instructions_2 = {
     type: jsPsychHtmlButtonResponse,
     stimulus: `
-    <img src="instructions/show_resource_grid.png">
+    <img src="instructions/show_resource_grid.png" width-800 height=240>
     <p>To recreate the model grid, drag and drop items from the resource pool on the right.</p>
     <p>If you drop the correct item in the correct location, it will lock into place.</p>
     <p>If you drop the wrong item or drop an item in the wrong location, it will wriggle before returning to the pool.</p>
@@ -266,7 +267,7 @@ for (var t = 0; t < n_trials; t++) {
 var strategy_survey = {
     type: jsPsychSurveyText,
     questions: [
-        {prompt: 'You have completed all the trials. Did you use any strategies to complete the task? If so, please provide a brief explanation of your strategy.'}
+        {prompt: 'You have completed all the trials. Did you use any strategies to complete the task? If so, please provide a brief explanation of your strategy.', rows:5}
     ]
 }
 
